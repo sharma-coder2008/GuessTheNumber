@@ -1,9 +1,9 @@
-##🎯 Number Guessing Game in C
+🎯 ##Number Guessing Game in C
 
 A simple and fun terminal-based Number Guessing Game made using the C programming language.
 The program generates a random number between 1 and 100, and the player has to guess it in minimum attempts.
 
-##🚀 Features
+🚀 ##Features
 
 Random number generation 🎲
 Hints for higher/lower guesses 📈📉
@@ -18,7 +18,8 @@ stdio.h
 stdlib.h
 time.h
 
-##📌 How the Game Works
+📌 ##How the Game Works
+
 The computer generates a random number between 1 and 100.
 The player enters a guess.
 The program gives hints:
