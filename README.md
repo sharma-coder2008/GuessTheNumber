@@ -1,54 +1,82 @@
-🎯 ##Number Guessing Game in C
+# 🎯 Number Guessing Game in C
 
-A simple and fun terminal-based Number Guessing Game made using the C programming language.
-The program generates a random number between 1 and 100, and the player has to guess it in minimum attempts.
+A simple terminal-based Number Guessing Game created using the C programming language.
 
-🚀 ##Features
+The computer generates a random number between **1 and 100**, and the player has to guess the correct number with the help of hints provided by the program.
 
-Random number generation 🎲
-Hints for higher/lower guesses 📈📉
-Attempt counter 🔢
-Best score tracker 🏆
-Replay option 🔁
-Beginner-friendly project 💻
-🛠️ Technologies Used
-C Programming Language
-Standard Libraries:
-stdio.h
-stdlib.h
-time.h
+---
 
-📌 ##How the Game Works
+## 🚀 Features
 
-The computer generates a random number between 1 and 100.
-The player enters a guess.
-The program gives hints:
-"Guess higher"
-"Guess lower"
-The game continues until the correct number is guessed.
-The number of attempts is displayed as the score.
-The best score is stored during the runtime.
+- Random number generation
+- Higher/Lower hints
+- Attempt counter
+- Best score tracker
+- Replay option
+- Beginner-friendly project
 
-##▶️ How to Run
-Compile the program
+---
+
+## 🛠️ Technologies Used
+
+- C Programming Language
+- Standard Libraries:
+  - stdio.h
+  - stdlib.h
+  - time.h
+
+---
+
+## 📌 How the Game Works
+
+1. The program generates a random number between 1 and 100.
+2. The player enters a guess.
+3. The program tells whether the guess should be:
+   - Higher
+   - Lower
+4. The game continues until the correct number is guessed.
+5. Total attempts are displayed as the score.
+6. Best score is also tracked during runtime.
+
+---
+
+## ▶️ How to Run
+
+### Compile the program
+
+```bash
 gcc project1.c
-./project1.exe
+```
 
-##📷 Sample Output
+### Run the program
+
+```bash
+./project1.exe
+```
+
+---
+
+## 📷 Sample Output
+
+```text
 Guess a number between 1 and 100 : 50
 Oops guess a number little higher : 75
 Oops guess a number little lower : 63
 Woo Hoo !!! you guessed the right number in 3 tries!!
 BEST SCORE : 3
-It was fun wasn't it? Wanna play again?
-Enter Y to play again and N for not playing again : Y
+```
 
-##🌱 Future Improvements
-Difficulty levels (Easy/Medium/Hard)
-Save best score using files
-Limited attempts mode
-Multiplayer mode
-GUI version
+---
 
-##👨‍💻 Author
-Made with C by Riyansh 🚀
+## 🌱 Future Improvements
+
+- Difficulty levels
+- Save best score using files
+- Multiplayer mode
+- GUI version
+
+---
+
+## 👨‍💻 Author
+
+Made by Riyansh 🚀
