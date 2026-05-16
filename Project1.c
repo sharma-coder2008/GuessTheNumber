@@ -28,7 +28,6 @@ void check()
 {
     if(num == r_num)
     {
-        printf("Woo Hoo !!! you guessed the right number at first attempt");
         count = 1;
     }
     else
@@ -113,6 +112,7 @@ int main()
 
         //Checking that whether the player wanna play again        
         repeat();
+        
     }while(ch == 'Y' || ch == 'y');
 
     return 0;
